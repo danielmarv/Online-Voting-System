@@ -2,7 +2,7 @@
 
 **This is a state of the art voting System.**
 
-The system is a Django Web Application and javascript functionaliities in its Frame work. 
+The system is a Django Web Application and javascript functionaliities in its Codebase. 
 
 It can be used for any kind of voting for example University Voting, College Voting and many more other intitutions because 
 it is versatile in its functionality so it can accommodate any kind of data for this Task given to it.
