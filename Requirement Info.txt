@@ -8,4 +8,5 @@
 
 **Admin Login Credentials, create one using superuser**
 
-This is 
+This is to direct you on how you can install and use the 
+customisable version of the e-voting system 
