@@ -1,4 +1,4 @@
-**Developed By Daniel Ntege (danielmarv)**
+**Adopted and modified by JM STANLEY (jmstanley)**
 
 - Install the Requirements: pip install -r requirements.txt
 - Then, make database migrations: python manage.py makemigrations
