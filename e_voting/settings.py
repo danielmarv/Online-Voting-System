@@ -25,7 +25,7 @@ SECRET_KEY = '%6lp_p!%r$7t-2ql5hc5(r@)8u_fc+6@ugxcnz=h=b(fn#3$p9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['e-votingv1.onrender.com','0.0.0.0']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition

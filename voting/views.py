@@ -28,15 +28,18 @@ def generate_ballot(display_controls=False):
         name = position.name
         position_name = slugify(name)
         candidates = Candidate.objects.filter(position=position)
+        
+        instruction = ""
+
         for candidate in candidates:
             if position.max_vote > 1:
-                instruction = "You may select up to " + \
+                instruction = "Select only one candidate " + \
                     str(position.max_vote) + " candidates"
-                input_box = '<input type="checkbox" value="'+str(candidate.id)+'" class="flat-red ' + \
+                input_box = '<input type="radio" value="'+str(candidate.id)+'" class="flat-red ' + \
                     position_name+'" name="' + \
                     position_name+"[]" + '">'
             else:
-                instruction = "Select only one candidate"
+                instruction = "You may select up to"
                 input_box = '<input value="'+str(candidate.id)+'" type="radio" class="flat-red ' + \
                     position_name+'" name="'+position_name+'">'
             image = "/media/" + str(candidate.photo)
